@@ -1,0 +1,16 @@
+name: TutorialVillager
+version: 1.0.1
+main: com.sagakenichi.tutorialvillager.TutorialVillagerPlugin
+api-version: '1.21'
+author: sagakenichi
+description: Creates persistent tutorial villagers that show messages when clicked.
+commands:
+  tutorialnpc:
+    aliases: [tnpc]
+    description: Tutorial villager management
+    usage: /tutorialnpc
+    permission: tutorialvillager.admin
+permissions:
+  tutorialvillager.admin:
+    description: Manage tutorial villagers
+    default: op
